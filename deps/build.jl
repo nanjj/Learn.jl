@@ -1,3 +1,4 @@
+using Pkg
 
 for pkg in ("Transformations", "ObjectiveFunctions", "StochasticOptimization", "MLMetrics", "PenaltyFunctions", "LearningStrategies")
     org = pkg == "CatViews" ? "ahwillia" : "JuliaML"
